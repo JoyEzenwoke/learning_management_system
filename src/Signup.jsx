@@ -1,13 +1,9 @@
-import { useState } from "react";
 import loginimage from "./assets/loginimage.png";
 import logos_google from "./assets/logos_google.png";
 import logos_facebook from "./assets/logos_facebook.png";
-import eyeicon from "./assets/eyeicon.png";
 
-export default function Login() {
-    const [showPassword, setShowPassword] = useState(false);
-   
-  return (
+export default function signup() {
+return (
     <div className="flex h-screen bg-[#000] ">
       {/* LEFT SIDE: Image */}
       <div className="w-1/2 h-full">
@@ -71,7 +67,7 @@ export default function Login() {
             {/* signup button */}
             <button
             type="submit"
-            className=" w-40 flex justify-center mt-4 mx-auto bg-[#7BB0FF] text-[#000] py-3 rounded-lg font-semibold ">
+            className=" w-40 flex justify-center mt-4 mx-auto bg-[#7BB0FF] text-[#000] cursor-pointer py-3 rounded-lg font-semibold ">
               Signup
               </button>
               </form>
