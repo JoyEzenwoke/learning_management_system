@@ -1,5 +1,5 @@
 import Login from "./Login.jsx" ;
-import signup from "./Signup.jsx" ;
+import Signup from "./Signup.jsx" ;
 
 export default function App() {
   return(
