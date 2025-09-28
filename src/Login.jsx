@@ -66,7 +66,7 @@ export default function Login() {
             {/* Login button */}
             <button
               type="submit"
-              className="w-40 mt-8 mx-auto flex justify-center bg-[#7BB0FF] text-[#000] py-3 rounded-lg font-semibold " >
+              className="w-40 mt-8 mx-auto flex justify-center bg-[#7BB0FF] cursor-pointer text-[#000] py-3 rounded-lg font-semibold " >
               Log In
             </button>
           </form>
